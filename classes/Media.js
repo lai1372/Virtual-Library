@@ -5,7 +5,7 @@ class Media {
     this.title = title;
     this.year = year;
     this.genre = genre;
-    this.totalMediaCount += 1
+    Media.totalMediaCount += 1
   }
 
   summary() {
